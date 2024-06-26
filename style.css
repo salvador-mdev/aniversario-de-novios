@@ -14,6 +14,11 @@ a {
     src: url(./fonts/The\ Bride\ in\ Hacienda.ttf);
 }
 
+@font-face {
+    font-family: 'Birds of Paradise © PERSONAL USE ONLY';
+    src: url(./fonts/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
+}
+
 .cabecalho {
     text-align: center;
     background-color: rgb(255, 205, 172);
@@ -67,7 +72,7 @@ a {
     margin-top: 30px;
     padding: 0 20px;
     text-align: justify;
-    font-family: 'Roboto';
+    font-family: 'Birds of Paradise © PERSONAL USE ONLY';
     font-size: 12px;
 }
 
@@ -75,7 +80,7 @@ a {
     margin-top: 10px;
     padding: 0 20px;
     text-align: justify;
-    font-family: 'Roboto';
+    font-family: 'Birds of Paradise © PERSONAL USE ONLY';
     font-size: 12px;
 }
 
