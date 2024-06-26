@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: 'The Bride in Hacienda';
+    src: url(./fonts/The\ Bride\ in\ Hacienda.ttf);
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: rgb(255, 205, 172);
+    color: rgb(132, 35, 37);
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-size: 10px;
+    padding: 15px 0;
+}
+
+.cabecalho h1 {
+    font-family: 'The Bride in Hacienda';
+    font-size: 35px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(132, 35, 37, 0.9);
+    display: flex;
+    justify-content: center;
+}
+.tarjeta {
+    background-image: url(imagens/amor.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 615px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    box-shadow: 3px 3px 3px rgb(255, 205, 172), -3px -3px 3px rgb(255, 205, 172);
+
+}
+
+.tarjeta h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-family:'Roboto';
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.tarjeta #texto1 {
+    margin-top: 30px;
+    padding: 0 20px;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+.tarjeta p {
+    margin-top: 10px;
+    padding: 0 20px;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+.tarjeta #texto2 {
+    text-align: center;
+}
+
+.container .tarjeta .link a h3 {
+    font-size: 10px;
+    font-family: 'Roboto';
+    line-height: 3px;
+    margin-top: 10px;
+    text-align: center;
+    transition: 0.3s;
+    text-transform: uppercase;
+    border: 1px solid rgb(255, 205, 172);
+    border-radius: 5px;
+    width: 240px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.container .tarjeta .link a h3:hover {
+    color: rgb(255, 205, 172);
+    font-size: 11px;
+}
+
+.background-emoji {
+    background-color: rgba(132, 35, 37, 0.9);
+    margin-top: 40px;
+    width: 270px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgb(255, 205, 172), -3px -3px 3px rgb(255, 205, 172);    
+}
+
+.background-emoji2 {
+    background-color: rgba(132, 35, 37, 0.9);
+    margin-top: 40px;
+    width: 300px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgb(255, 205, 172), -3px -3px 3px rgb(255, 205, 172);    
+}
+
+.container-emoji {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(132, 35, 37, 0.9);
+    height: 100vh;
+}
+
+.osito img {
+    width: 350px;
+    height: 300px;
+}
+
+.osito p {
+    text-align: center;
+}
+
+.osito .texto1 {
+    padding-bottom: 20px;
+    font-family: 'The Bride in Hacienda';
+    font-size: 60px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.osito .texto2 {
+    padding-top: 20px;
+    font-family: 'The Bride in Hacienda';
+    font-size: 60px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.background-emoji .link2 a h3 {
+    font-size: 10px;
+    text-align: center;
+    transition: 0.3s;
+    font-family: 'Roboto';
+    margin-top: 10px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    border: 1px solid rgb(255, 205, 172);
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.background-emoji2 .link2 a h3 {
+    font-size: 10px;
+    text-align: center;
+    transition: 0.3s;
+    font-family: 'Roboto';
+    margin-top: 10px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    border: 1px solid rgb(255, 205, 172);
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.background-emoji .link2 a h3:hover {
+    color: rgb(255, 205, 172);
+}
+
+.background-emoji2 .link2 a h3:hover {
+    color: rgb(255, 205, 172);
+}
